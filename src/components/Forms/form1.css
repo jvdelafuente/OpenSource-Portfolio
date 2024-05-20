@@ -1,0 +1,164 @@
+.emailform-h2 {
+  padding: 5px;
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.form-container {
+  animation: form-slide-in-top 0.5s both;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.form-horizontal {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  max-width: 500px;
+  max-height: 300px;
+  min-width: 50%;
+  padding: 15px;
+  text-align: start;
+}
+.textarea {
+  width: 100%;
+}
+.textarea textarea {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#emailBody {
+  outline: none;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #ffffffec;
+  border: none;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+#emailBody:focus {
+  border: none;
+  box-shadow: none;
+  background-color: #fff;
+}
+#nameField,
+#emailField {
+  outline: none;
+  box-sizing: border-box;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  min-height: 27px;
+  background-color: #ffffffec;
+  border: none;
+}
+#nameField:focus,
+#emailField:focus {
+  background-color: #ffffff;
+  border: none;
+}
+#form-name-text {
+  margin-top: 10px;
+}
+.form-container {
+  min-width: 200px;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+}
+.form-button {
+  max-width: 180px;
+  background: #000;
+  border: solid 1px #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-button:before {
+  content: "";
+  position: relative;
+  right: 0;
+  transform: rotate(90deg);
+  transition: all 0.2s ease-in-out;
+}
+.form-button:after {
+  content: "";
+  position: relative;
+  right: 0;
+}
+.form-submit-button {
+  user-select: none;
+  cursor: pointer;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  padding: 0;
+}
+.form-submit-button:hover {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+}
+.form-submit-button:active {
+  background-color: #ffffff2a;
+}
+.form-submit-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.form-svg {
+  animation: rotate-invert 0.2s ease-in-out forwards;
+}
+.form-svg.rotate {
+  animation: rotate 0.2s ease-in-out forwards;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}
+@keyframes rotate-invert {
+  from {
+    transform: rotate(180deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes form-slide-in-top {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    display: none;
+    opacity: 0;
+  }
+  30% {
+    display: none;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    display: block;
+    opacity: 1;
+  }
+}

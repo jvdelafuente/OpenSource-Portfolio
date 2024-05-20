@@ -1,0 +1,193 @@
+.index-card-container {
+  background-color: #000;
+  margin-top: 75px;
+}
+.index-title-h1-container {
+  margin-left: 20vw;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  animation: page-appear 1.5s ease-in;
+}
+.index-title-h1 {
+  padding-bottom: 25px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+}
+.index-title-p {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  width: 75%;
+  margin-bottom: 100px;
+}
+.component-page-card-container {
+  animation: page-appear 1.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  margin-left: 20vw;
+  width: 70vw;
+  height: auto;
+}
+
+.component-page-card-item-container {
+  border: 1px solid #ffffff73;
+  width: 55vw;
+}
+
+.component-page-card-items {
+  box-sizing: border-box;
+  max-height: 600px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 5%;
+}
+.component-page-card-items h4 {
+  margin: 5px 0px 15px 0px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.component-page-card-h2-item {
+  padding: 1%;
+  background-color: #0c0a09;
+  border-bottom: 1px solid #ffffff73;
+  text-align: left;
+  color: #fff;
+}
+.component-page-card-h2-item h2 {
+  margin: 0;
+  font-weight: 300;
+  margin-left: 4%;
+}
+.component-page-card-header h1 {
+  font-weight: 500;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+.component-page-card-content-container {
+  margin-top: 5%;
+  border: 1px solid #ffffff73;
+  width: 55vw;
+}
+
+.component-page-card-content-container pre {
+  max-height: 300px;
+  border: 1px solid #ffffff73;
+}
+
+.component-page-card-h2-content {
+  padding: 1%;
+  border-bottom: 1px solid #ffffff73;
+  margin: 0;
+  background-color: #0c0a09;
+  text-align: left;
+  color: #fff;
+}
+
+.component-page-card-h2-content h2 {
+  margin: 0;
+  font-weight: 300;
+  margin-left: 4%;
+}
+
+.component-page-card-content-items {
+  padding: 5%;
+}
+
+#copyButton {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  width: 150px;
+  padding: 0;
+  margin-top: 2%;
+  border: 0.5px solid #ffffff73;
+  background-color: #0c0a09;
+  color: white;
+  height: 5vh;
+}
+
+#copyButton:hover {
+  border: 1.5px solid #ea580c;
+  background-color: #0c0a09;
+}
+
+#copyButton:active {
+  background-color: #1d18169d;
+  border: 2px solid #ea580c;
+  color: #ea580c;
+}
+#index-dropdown-container {
+  height: 270px;
+}
+.index-lane-separate {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  align-self: center;
+}
+.glow-block {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 200px;
+}
+
+@media (max-width: 1060px) {
+  .index-title-h1-container {
+    width: 100vw;
+    margin-left: 12vw;
+  }
+  .component-page-card-container {
+    width: 100vw;
+    margin: 0;
+    margin-left: 12vw;
+  }
+  .index-card-container {
+    overflow-x: hidden;
+  }
+  .component-page-card-items {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 5%;
+  }
+  .component-page-card-content-container {
+    margin-top: 5%;
+    border: 1px solid #ffffff73;
+    width: 85vw;
+  }
+  .component-page-card-item-container {
+    border: 1px solid #ffffff73;
+    width: 85vw;
+  }
+}
+
+@media (max-width: 640px) {
+  .component-page-card-container {
+    align-items: center;
+    width: 100vw;
+    margin-left: 0vw;
+  }
+  .index-title-h1 {
+    font-size: 46px;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .index-title-p {
+    font-size: 20px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    width: 75%;
+    margin-bottom: 50px;
+  }
+}

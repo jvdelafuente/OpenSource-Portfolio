@@ -1,0 +1,40 @@
+.loadingspinnerballs-container {
+  width: 120px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#loadingBall {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+.loadinspinner-ball1 {
+  transform: translateY(15px);
+  background-color: #ea5a0cd8;
+  animation: balls-moves 1.5s both infinite ease-in-out;
+}
+.loadinspinner-ball2 {
+  background-color: #ffffffd0;
+  animation: balls-moves-bottom 1.5s both infinite ease-in-out;
+}
+@keyframes balls-moves {
+  0% {
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+  }
+}
+@keyframes balls-moves-bottom {
+  0% {
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+  }
+}

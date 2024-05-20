@@ -1,0 +1,81 @@
+.about-container {
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 75px;
+  color: #fff;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+.about-content {
+  gap: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 20vw;
+  margin-bottom: 250px;
+  width: 60vw;
+}
+.about-content h1 {
+  color: #fff;
+  font-size: 50px;
+}
+.about-me {
+  width: 100%;
+  padding: 20px;
+  animation: page-appear 1.5s ease-in;
+}
+.about-me span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.about-me a,
+.about-content a {
+  color: #ea580c;
+  text-decoration: none;
+}
+.about-project {
+  padding: 20px;
+  width: 100%;
+  animation: page-appear 1.5s ease-in;
+}
+.about-projects-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@keyframes page-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-container {
+    margin-top: 25px;
+  }
+  .about-container p {
+    font-size: 14px;
+  }
+  .about-content {
+    margin-left: 8vw;
+    width: 75vw;
+  }
+  .about-content h1 {
+    font-size: 35px;
+  }
+  .about-me span {
+    font-size: 16px;
+  }
+  .weshare-pdf {
+    border: 1px solid #fff;
+    width: 100%;
+    height: 350px;
+  }
+}

@@ -1,0 +1,42 @@
+.contact-page-container{
+  pointer-events: none;
+  cursor: default;
+  width: 100vw;
+  height: 3vh;
+  background-color: #00000000;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 65px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+    animation: contact-text-appear 1.5s ease-in-out forwards;
+}
+
+.contact-page-container h1{
+  margin-left: 10px;
+font-size: 22px;
+}
+
+.footer-container.open .contact-page-container{
+  display: none;
+}
+.footer-container:hover .contact-page-container {
+  display: flex;
+}
+@keyframes contact-text-appear {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+    75% {
+      opacity: 1;
+    }
+  100%{
+    opacity: 0;
+  }
+}

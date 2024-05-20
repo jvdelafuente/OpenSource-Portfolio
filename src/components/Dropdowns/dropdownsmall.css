@@ -1,0 +1,122 @@
+.dropdown-nav-container {
+  user-select: none;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  left: 50px;
+  width: 150px;
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+}
+.dropdown-nav-container h3 {
+  padding: 5px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  font-weight: 500;
+}
+.menu-dropdown {
+  position: absolute;
+  top: calc(100% + 0px);
+  right: 16px;
+  width: 150px;
+  min-height: 100px;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: left 300ms;
+}
+.menu-dropdown.active {
+  border: 1px solid #fff;
+  background-color: #00000000;
+  animation: dropdown-slide-in-top 0.3s both;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  opacity: 1;
+  left: -1px;
+  transform: translateY(10px);
+  visibility: visible;
+}
+.menu-dropdown ul {
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 8;
+  background: #000;
+}
+.menu-dropdown ul li {
+  background-color: #000;
+  margin: 0;
+  list-style: none;
+  font-size: 16px;
+  width: 149px;
+}
+.menu-dropdown ul li:hover .dropdown-list-item {
+  color: #ea580c;
+}
+.menu-dropdown a:focus {
+  color: #ea580c;
+  border-left: 1px solid #ea580c;
+}
+.menu-dropdown ul li .dropdown-list-item {
+  margin: 10px 5px 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.icon {
+  animation: rotate-invert 0.2s ease-in-out forwards;
+}
+.icon.rotate {
+  animation: rotate 0.2s ease-in-out forwards;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}
+@keyframes rotate-invert {
+  from {
+    transform: rotate(180deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes dropdown-slide-in-top {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    display: none;
+    opacity: 0;
+  }
+  30% {
+    display: none;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    display: block;
+    opacity: 1;
+  }
+}

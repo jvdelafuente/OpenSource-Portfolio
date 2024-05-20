@@ -1,0 +1,19 @@
+.button-1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: 1px solid #fff;
+  width: 120px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+}
+.button-1:hover {
+  border: 2px solid #fff;
+}
+
+.button-1:active {
+  background-color: #ffffff2a;
+}

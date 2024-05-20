@@ -1,0 +1,220 @@
+.home-container {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.home-container a {
+      animation: slide-in-fwd-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  text-decoration: none;
+  color: #fff;
+
+}
+.home-logo-container {
+  margin-top: 50px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-container {
+      animation: slit-in-diagonal-1 1.5s ease-out both;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo-container h1 {
+  text-align: center;
+  margin: 0;
+}
+.home-tittle1 {
+
+  font-size: 50px;
+  font-weight: 300;
+}
+.home-tittle2 {
+
+  font-size: 60px;
+  font-weight: 600;
+}
+.logo-allbars-container h3 {
+  text-align: left;
+  margin: 0px;
+  font-size: 28px;
+}
+
+.logo-allbars-container {
+
+  outline: solid 2px #fff;
+  outline-offset: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: getstart-outline-reverse 0.25s both 1 ease-in;
+}
+.logo-allbars-container:hover {
+  animation: getstart-outline 0.25s both 1 ease-in;
+}
+.logo-allbars {
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 70px;
+}
+.logo-bar1 {
+  width: 80px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  animation: arrow-test-logo-reverse 0.25s both 1 ease-in;
+}
+.logo-bar3 {
+  width: 80px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  animation: arrow-test-logo-invert-reverse 0.25s both 1 ease-in;
+}
+.logo-allbars-container:hover .logo-bar1 {
+  animation: arrow-test-logo 0.25s both 1 ease-in;
+}
+.logo-bar2 {
+  border-radius: 10px;
+  width: 130px;
+  height: 5px;
+  background-color: #ea580c;
+}
+.logo-allbars-container:hover .logo-bar3 {
+  animation: arrow-test-logo-invert 0.25s both 1 ease-in;
+}
+
+@keyframes arrow-test-logo-reverse {
+  0% {
+    background-color: #ea580c;
+    width: 40px;
+    transform: translateX(94px) translateY(12px) rotate(35deg);
+  }
+
+  50% {
+    width: 70px;
+  }
+
+  100% {
+  }
+}
+
+@keyframes arrow-test-logo {
+  0% {
+  }
+
+  50% {
+    width: 70px;
+  }
+
+  100% {
+    background-color: #ea580c;
+    width: 40px;
+    transform: translateX(94px) translateY(12px) rotate(35deg);
+  }
+}
+@keyframes arrow-test-logo-invert {
+  0% {
+  }
+
+  50% {
+    width: 70px;
+  }
+
+  100% {
+    background-color: #ea580c;
+    width: 40px;
+    transform: translateX(94px) translateY(-13px) rotate(-35deg);
+  }
+}
+@keyframes arrow-test-logo-invert-reverse {
+  0% {
+    background-color: #ea580c;
+    width: 40px;
+    transform: translateX(94px) translateY(-13px) rotate(-35deg);
+  }
+  50% {
+    width: 70px;
+  }
+
+  100% {
+  }
+}
+@keyframes getstart-outline {
+  0% {
+  }
+  100% {
+    outline: solid 3px #fff;
+    outline-offset: 13px;
+  }
+}
+@keyframes getstart-outline-reverse {
+  0% {
+    border: none;
+    outline: solid 3px #fff;
+    outline-offset: 13px;
+  }
+
+  100% {
+  }
+}
+
+@keyframes slit-in-diagonal-1 {
+  0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+  
+    40% {
+      opacity: 0.6;
+    }
+  
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+}
+@keyframes slide-in-fwd-center {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+    50% {
+    transform: scale(0.4);
+      opacity: 0;
+    }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo-container {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .logo-container h1 {
+    padding-left: 25px;
+    text-align: left;
+    margin: 0;
+    font-size: 45px;
+  }
+}

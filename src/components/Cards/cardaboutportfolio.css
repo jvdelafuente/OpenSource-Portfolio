@@ -1,0 +1,56 @@
+.card-social {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: #000;
+  border: 1px solid #ffffff7a;
+  max-width: 300px;
+    min-height: 430px;
+}
+.card-social h2 {
+  font-weight: 300;
+  justify-self: start;
+  text-align: center;
+  font-size: clamp(10px, 26px, 30px);
+}
+.card-h2-container {
+  font-style: normal;
+  justify-self: start;
+}
+.card-p-container {
+  font-weight: 300;
+  margin-bottom: 5%;
+  font-size: clamp(10px, 16px, 20px);
+  align-self: center;
+  width: 80%;
+}
+.about-socials {
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.about-socials h3 {
+  font-size: clamp(10px, 15px, 20px);  
+  margin: 0;
+  font-weight: 500;
+}
+.about-social-each {
+  cursor: default;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 2%;
+  background-color: white;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-social-each:hover{
+  background-color: #ea5a0c;
+}

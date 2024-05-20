@@ -1,0 +1,94 @@
+.nav-bar-r{
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #fff;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #fff;
+  box-sizing: border-box;
+}
+.nav-ul-r{
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-li-r{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-small-input-container-r{
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 73%;
+}
+.navbar-small-logo-r {
+  width: 40px;
+  height: auto;
+}
+.navbar-small-logo-container-r{
+  margin-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 30%;
+  height: 100%;
+}
+
+.navbar-small-input-r{
+  border-radius: 5px;
+  background-color: #fffffff1;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  height: 18px;
+  outline: none;
+  border: none;
+  transition: transform 0.1s ease-in-out;
+}
+.navbar-small-input-r:hover{
+  background-color: #ffffff;
+  transform: scale(1.02);
+}
+.navbar-small-input-r:focus {
+  background-color: #ffffff;
+  transform: scale(1.02);
+}
+.navbar-small-profile-r{
+  margin-right: 5px;
+  width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.navbar-small-profile-r a{
+  cursor: pointer;
+}
+.navbar-small-profileimg-example-r{
+  width: 35px;
+  height: 35px;
+  background-position: center;
+  background-size: cover;
+background-image: url('https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg');  
+
+border-radius: 100%;
+}
+
+@media (max-width: 600px) {
+  .nav-bar {
+    justify-content: center;
+  }
+
+  .navbar-small-profile {
+    width: 40%;
+  }
+}

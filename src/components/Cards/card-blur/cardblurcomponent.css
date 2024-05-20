@@ -1,0 +1,76 @@
+.card-blur {
+  max-width: 400px;
+  position: relative;
+}
+.card-blur .img-container {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.card-blur .img-container img {
+  filter: grayscale(1);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 90%;
+  border-radius: inherit;
+  transition: 0.5s ease-in-out;
+}
+.card-blur::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+.card-blur:hover img {
+  filter:grayscale(1) brightness(0.4) blur(2px);
+}
+.card-blur:hover::after {
+  opacity: 1;
+  inset: 20px;
+}
+.content-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content-container h2,
+.content-container p {
+  opacity: 0;
+  transition: 0.4s 0.2s ease;
+  overflow: hidden;
+}
+.content-container h2 {
+  font-size: clamp(10px, 23px, 30px);
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10%;
+  scale: 0.3;
+    font-family: 'Poppins', sans-serif;
+}
+.content-container p{
+    font-family: 'Poppins', sans-serif;
+  line-height: 1.1;
+  font-size: clamp(5px, 12px, 20px);
+  color: #fff;
+  scale: 0.3;
+}
+.card-blur:hover .content-container h2 {
+  scale: 1;
+  opacity: 1;
+}
+.card-blur:hover .content-container P {
+  opacity: 1;
+  scale: 1;
+}

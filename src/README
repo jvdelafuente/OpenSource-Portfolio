@@ -1,0 +1,156 @@
+├── package-lock.json
+├── package.json
+├── public
+│   └── Logo.png
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   │   ├── Icons
+│   │   │   └── expand.png
+│   │   ├── Others
+│   │   │   └── wesharepdf.pdf
+│   │   ├── PlaceholderIMG
+│   │   │   ├── placeholderIMG.jpg
+│   │   │   ├── placeholderIMG2.jpg
+│   │   │   ├── placeholderIMG3.jpg
+│   │   │   ├── placeholderIMG4.jpg
+│   │   │   ├── placeholderIMG5.jpg
+│   │   │   └── placeholderIMG6.jpg
+│   │   └── ProjectIMG
+│   │       ├── piano1.png
+│   │       └── sharewe.png
+│   ├── components
+│   │   ├── Accordions
+│   │   │   ├── AccordionOriginal.css
+│   │   │   └── AccordionOriginal.jsx
+│   │   ├── Buttons
+│   │   │   ├── button1.css
+│   │   │   ├── Button1Component.jsx
+│   │   │   ├── button2.css
+│   │   │   └── Button2Component.jsx
+│   │   ├── Cards
+│   │   │   ├── card-blur
+│   │   │   │   ├── cardblurcomponent.css
+│   │   │   │   └── CardBlurComponent.jsx
+│   │   │   ├── cardaboutportfolio.css
+│   │   │   ├── CardAboutPortfolio.jsx
+│   │   │   ├── cardaboutportfoliotools.css
+│   │   │   └── CardAboutPortfolioTools.jsx
+│   │   ├── Carousels
+│   │   ├── ComponentsREADME.txt
+│   │   ├── Cursor
+│   │   ├── Dropdowns
+│   │   │   ├── dropdownsmall.css
+│   │   │   └── DropdownSmall.jsx
+│   │   ├── Forms
+│   │   │   ├── form1.css
+│   │   │   └── Form1.jsx
+│   │   ├── Loadingspinners
+│   │   │   ├── loadingspinnerballs.css
+│   │   │   ├── LoadingSpinnerBalls.jsx
+│   │   │   ├── loadingspinnerlanes.css
+│   │   │   ├── LoadingSpinnerLanes.jsx
+│   │   │   ├── loadingspinnersquare.css
+│   │   │   └── LoadingSpinnerSquare.jsx
+│   │   ├── Navbars
+│   │   │   ├── Original
+│   │   │   │   ├── NavbarOriginal.css
+│   │   │   │   ├── NavbarOriginal.jsx
+│   │   │   │   └── Reduce
+│   │   │   │       ├── NavbarOriginalReduce.css
+│   │   │   │       └── NavbarOriginalReduce.jsx
+│   │   │   ├── OriginalLinks
+│   │   │   │   ├── NavbarOriginalLinks.css
+│   │   │   │   ├── NavbarOriginalLinks.jsx
+│   │   │   │   └── Reduce
+│   │   │   │       ├── NavbarOriginalLinksReduce.css
+│   │   │   │       └── NavbarOriginalLinksReduce.jsx
+│   │   │   └── SideOriginal
+│   │   │       ├── SideOriginal.css
+│   │   │       └── SideOriginal.jsx
+│   │   ├── Paginations
+│   │   ├── Pruebas
+│   │   │   ├── ThreejsFont.css
+│   │   │   └── ThreejsFont.jsx
+│   │   ├── Scrolls
+│   │   │   ├── ScrollInfiniteHorizontal.css
+│   │   │   └── ScrollInfiniteHorizontal.jsx
+│   │   └── Switch
+│   │       ├── switchcomponent.css
+│   │       ├── SwitchComponent.jsx
+│   │       ├── switchcomponent2.css
+│   │       └── SwitchComponentEmpty.jsx
+│   ├── Layouts
+│   │   ├── Grid2-2-3.css
+│   │   ├── Grid2-2-3.jsx
+│   │   ├── Grid2-2.css
+│   │   ├── Grid2-2.jsx
+│   │   ├── Grid2-3-2.css
+│   │   └── Grid2-3-2.jsx
+│   ├── main.jsx
+│   ├── others
+│   │   └── Glow.jsx
+│   └── Pages
+│       ├── about.css
+│       ├── About.jsx
+│       ├── Animation Pages
+│       │   ├── IndexAnimations.jsx
+│       │   ├── LSBalls.jsx
+│       │   ├── LSLines.jsx
+│       │   ├── LSSquare.jsx
+│       │   └── ScrollInfinite.jsx
+│       ├── Component Pages
+│       │   ├── Accordions
+│       │   │   └── Accordion1.jsx
+│       │   ├── Buttons
+│       │   │   ├── Button1.jsx
+│       │   │   └── Button2.jsx
+│       │   ├── Cards
+│       │   │   ├── CardsBlur.jsx
+│       │   │   └── Portfolio
+│       │   │       ├── CardsAbout.jsx
+│       │   │       └── CardsAboutTools.jsx
+│       │   ├── Cursor
+│       │   │   └── GlowCursor.jsx
+│       │   ├── Dropdowns
+│       │   │   └── Dropdown1.jsx
+│       │   ├── Form
+│       │   │   └── FormHide.jsx
+│       │   ├── IndexAccordions.jsx
+│       │   ├── IndexButtons.jsx
+│       │   ├── Indexcards.css
+│       │   ├── IndexCards.jsx
+│       │   ├── IndexComponents.jsx
+│       │   ├── IndexCursor.jsx
+│       │   ├── IndexDropdowns.jsx
+│       │   ├── IndexForms.jsx
+│       │   ├── IndexNavbars.jsx
+│       │   ├── IndexSwitches.jsx
+│       │   ├── Navbars
+│       │   │   ├── NavbarSmall.jsx
+│       │   │   └── NavbarSmallLinks.jsx
+│       │   └── Switch
+│       │       └── Switch1.jsx
+│       ├── components.css
+│       ├── Components.jsx
+│       ├── componentssidenav.css
+│       ├── ComponentsSideNav.jsx
+│       ├── contact.css
+│       ├── Contact.jsx
+│       ├── footer.css
+│       ├── Footer.jsx
+│       ├── home.css
+│       ├── Home.jsx
+│       ├── Layout Pages
+│       │   ├── Grid
+│       │   │   ├── Grid22.jsx
+│       │   │   ├── Grid223.jsx
+│       │   │   └── Grid232.jsx
+│       │   └── IndexLayout.jsx
+│       ├── others.css
+│       ├── Others.jsx
+│       └── test
+├── style.css
+└── vite.config.js
