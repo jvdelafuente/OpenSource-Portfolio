@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./componentssidenav.css";
 
 const SideNav = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [currentSection, setCurrentSection] = useState("");
 
 

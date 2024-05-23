@@ -22,11 +22,7 @@ width: 23px;
   width: 0px;
 }
 
-.burger.active{
-  margin: 0;
-    min-width: 150px;
-  background-color: #000;
-}
+
 .bar1,
 .bar2,
 .bar3 {

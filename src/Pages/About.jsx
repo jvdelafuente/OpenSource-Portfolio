@@ -44,13 +44,13 @@ export default function About() {
               the conventional approach and adding a unique touch to the
               standard format. <br />
               <br />
-              For a deeper exploration of the project, download this{" "}
-              <a href="">README</a> file or visit the{" "}
-              <a href="">GitHub repository</a>.
+              For a deeper exploration of the project, read this{" "}
+              <a href="https://github.com/jvdelafuente/OpenSource-Portfolio/blob/main/README.md" target="_blank">README</a> file or visit the{" "}
+              <a href="https://github.com/jvdelafuente/OpenSource-Portfolio" target="_blank">GitHub repository</a>.
             </p>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   );
 }
