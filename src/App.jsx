@@ -13,10 +13,13 @@ import IndexNavbars from './Pages/Component Pages/IndexNavbars';
 import IndexSwitches from './Pages/Component Pages/IndexSwitches';
 import IndexComponents from './Pages/Component Pages/IndexComponents';
 import IndexAnimations from './Pages/Animation Pages/IndexAnimations';
+
 import Home from './Pages/Home';
 import Footer from './Pages/Footer';
 import About from './Pages/About';
 import Others from './Pages/Others';
+import IndexLoadingSpinners from './Pages/Animation Pages/IndexLoadingSpinners';
+import IndexOtherAnimations from './Pages/Animation Pages/IndexOtherAnimations';
 
 
 const mouseLeavePageEvent = new CustomEvent('onMouseLeavePage');
@@ -50,6 +53,8 @@ function App() {
     <Route path="/components/navbars" element={<IndexNavbars />} />
     <Route path="/components/switches" element={<IndexSwitches />} />
     <Route path="/animations" element={<IndexAnimations />} />
+    <Route path="/animations/loadingspinners" element={<IndexLoadingSpinners />} />
+    <Route path="/animations/others" element={<IndexOtherAnimations />} />
       </Routes>
     </BrowserRouter>
     

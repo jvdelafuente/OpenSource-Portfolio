@@ -42,6 +42,7 @@ export default function Others() {
             <a href="https://other-1-jvdlf.netlify.app" target="_blank">
               Live preview
             </a>
+            
             <a
               href="https://github.com/jvdelafuente/other-1/tree/main"
               target="_blank"

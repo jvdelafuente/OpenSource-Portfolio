@@ -108,7 +108,9 @@ width: 23px;
   color: #ea580c;
 
 }
-
+.navigation-heading.active a{
+  color: #ea580c;
+}
 .navigation-heading:not(:first-child) {
   margin-top: 25px;
 }
