@@ -28,13 +28,19 @@
   align-items: start;
   animation: page-appear 1.5s ease-in;
 }
-.others-header h1 {
+.others-header h1{
   font-size: 60px;
   margin: 0px 0px 50px 0px;
 }
-.others-header p {
+.fetch-container h2 {
+  font-size: 30px;
+  color: #fff;
+  margin: 0px 0px 50px 0px;
+}
+.others-container p {
+  color: #fff;
   font-size: 22px;
-  margin: 0;
+  margin: 0px 0px 20px 0px;
 }
 .others-header span {
   font-weight: 200;
@@ -132,10 +138,10 @@
     cursor: pointer;
     transition: width 0.3s ease, height 0.3s ease;
   }
-    .about-project-item-button {
-      margin-bottom: 225px;
-    }
-#iframe-web-id{
-  margin-top: 200px;
+.others-container p {
+  margin: 100px 0px 20px 0px;
+}
+.others-header p {
+  margin: 0px 0px 20px 0px;
 }
 }

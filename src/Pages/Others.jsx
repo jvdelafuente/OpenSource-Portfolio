@@ -19,6 +19,8 @@ export default function Others() {
         </p>
       </div>
       <div className="others-content">
+        
+        <p>Bootcamp project</p>
         <div id="weShare" className="others-iframe-container">
           <iframe className="weshare-pdf" src={weshare}></iframe>
           <div className="about-project-item-button">
@@ -30,7 +32,66 @@ export default function Others() {
             </a>
           </div>
         </div>
-
+        <div className="fetch-container">
+            <p>Fetch ThemovieDB api</p>
+          <div id="iframe-web-id" className="others-iframe-container">
+                    <a href="https://svodfetch.netlify.app" target="_blank">
+            <iframe
+              id="iframe-fullscreen"
+              className="others-iframe-item"
+              src="https://svodfetch.netlify.app"
+            ></iframe>
+          </a>
+          <div className="about-project-item-button">
+            <a href="https://svodfetch.netlify.app" target="_blank">
+              Live preview
+            </a>
+            <a href="https://github.com/jvdelafuente/SVODfetch" target="_blank">
+              Repository
+            </a>
+          </div>
+          </div>
+          <p>Fetch OpenFDA api</p>
+          <div id="iframe-web-id" className="others-iframe-container">
+                    <a href="https://openfda-fetch.netlify.app" target="_blank">
+            <iframe
+              id="iframe-fullscreen"
+              className="others-iframe-item"
+              src="https://openfda-fetch.netlify.app"
+            ></iframe>
+          </a>
+          <div className="about-project-item-button">
+            <a href="https://openfda-fetch.netlify.app" target="_blank">
+              Live preview
+            </a>
+            <a href="https://github.com/jvdelafuente/openFDA" target="_blank">
+              Repository
+            </a>
+          </div>
+          </div>
+        </div>
+        <p>LiveChat web-sockets & Firebase</p>
+        <div id="iframe-web-id" className="others-iframe-container">
+          <a href="https://jvlivechat.netlify.app" target="_blank">
+            <iframe
+              className="others-iframe-item"
+              src="https://jvlivechat.netlify.app"
+            ></iframe>
+          </a>
+          <div className="about-project-item-button">
+            <a href="https://jvlivechat.netlify.app" target="_blank">
+              Live preview
+            </a>
+            
+            <a
+              href="https://github.com/jvdelafuente/livechat"
+              target="_blank"
+            >
+              Repository
+            </a>
+          </div>
+        </div>
+        <p>Atropos & BG effect</p>
         <div id="iframe-web-id" className="others-iframe-container">
           <a href="https://other-1-jvdlf.netlify.app" target="_blank">
             <iframe
@@ -51,6 +112,7 @@ export default function Others() {
             </a>
           </div>
         </div>
+        <p>Scroll effects</p>
         <div id="iframe-web-id" className="others-iframe-container">
           <a href="" target="_blank">
             <iframe
@@ -69,7 +131,7 @@ export default function Others() {
           </div>
         </div>
 
-
+        <p>Piano game</p>
         <div id="iframe-web-id" className="others-iframe-container">
           <a href="https://jvmypiano.netlify.app" target="_blank">
             <iframe
