@@ -13,10 +13,10 @@ export default function Footer() {
 
   const handleDownloadCV = () => {
 
-    const cvUrl = '../assets/Others/Full-stackCV.pdf';
+    const cvUrl = '../assets/Others/CV-LAST.pdf';
     const downloadLink = document.createElement('a');
     downloadLink.href = cvUrl;
-    downloadLink.download = 'Full-stackCV.pdf';
+    downloadLink.download = 'CV-LAST.pdf';
     downloadLink.click(); 
   };
 
@@ -42,7 +42,7 @@ export default function Footer() {
       <div className={`footer-container-open ${isOpen ? 'animated' : ''}`}>
           <div className="footer-content-text">
             <h3><a onClick={handleDownloadCV}>Download CV</a></h3>
-            <h3><a href='tel:+34 624 83 71 85'>+34 624 83 71 85</a></h3>
+            <h3><a href='tel: +34 624 16 03 82 '> +34 624 16 03 82 </a></h3>
             <h3><a href="mailto:delafuentejvr@gmail.com">delafuentejvr@gmail.com</a></h3>
           </div>
           <div className="footer-content-icons">
